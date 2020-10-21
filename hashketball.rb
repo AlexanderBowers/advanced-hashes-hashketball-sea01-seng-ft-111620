@@ -175,6 +175,7 @@ def team_names
     #binding.pry
     game_hash[teams].once do |name, value2|
       #binding.pry
+      if name.class = String
       teams_array << value2
     end
   end
