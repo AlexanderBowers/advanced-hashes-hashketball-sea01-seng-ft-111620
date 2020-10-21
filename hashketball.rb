@@ -178,6 +178,7 @@ def team_names
       if name.class = String
       teams_array << value2
     end
+    end
   end
   teams_array
 end
