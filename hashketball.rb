@@ -172,7 +172,7 @@ def team_names
   teams_array = []
 
   game_hash.each do |teams, value1|
-    #binding.pry
+    binding.pry
     game_hash[teams].each do |name, value2|
       teams_array << game_hash[teams][name][:team_name]
     end
