@@ -179,11 +179,9 @@ def player_numbers(team)
   game_hash.each do |team, value1|
     game_hash[team][:players].each do |individual|
       team_numbers <<  individual[:number]
-      end
     end
   end
-end
-team_numbers
+  team_numbers
 end
 
 def player_stats(player)
