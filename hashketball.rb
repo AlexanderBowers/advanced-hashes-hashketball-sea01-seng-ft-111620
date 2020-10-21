@@ -173,10 +173,7 @@ def team_names
 
   game_hash.each do |teams, value1|
     #binding.pry
-    game_hash[teams].each do |name, value2|
-      #binding.pry
-      if name.class == String
-        teams_array << value2
+    teams_array << game_hash[teams][:team_name]
       end
     end
   end
