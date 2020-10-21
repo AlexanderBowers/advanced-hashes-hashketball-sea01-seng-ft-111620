@@ -207,5 +207,5 @@ def big_shoe_rebounds(biggest_shoe)
       end
     end
   end
-  
+
 end
