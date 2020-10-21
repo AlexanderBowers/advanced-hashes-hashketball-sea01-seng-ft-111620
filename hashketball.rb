@@ -155,7 +155,6 @@ end
 def team_colors(team)
   game_hash
   game_hash.each do |teams, value1|
-    #binding.pry
     game_hash[teams].each do |name, value2|
       if game_hash[teams][name] == team
         game_hash[teams].each do |colors, value3|
