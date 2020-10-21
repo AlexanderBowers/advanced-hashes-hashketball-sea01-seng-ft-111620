@@ -174,8 +174,7 @@ def team_names
   game_hash.each do |teams, value1|
     #binding.pry
     game_hash[teams].each do |name, value2|
-      if game_hash[teams][name] == team
-        teams_array << game_hash[teams][name]
+      teams_array << game_hash[teams][name][:team_name]
       end
     end
   end
